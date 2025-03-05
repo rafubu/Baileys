@@ -706,7 +706,7 @@ await sock.sendMessage(jid, {
 ## Manipulating Media Messages
 
 ### Thumbnail in Media Messages
-- For media messages, the thumbnail can be generated automatically for images & stickers provided you add `jimp` or `sharp` as a dependency in your project using `yarn add jimp` or `yarn add sharp`.
+- For media messages, the thumbnail can be generated automatically for images & stickers provided you add `jimp` as a dependency in your project using `yarn add jimp`
 - Thumbnails for videos can also be generated automatically, though, you need to have `ffmpeg` installed on your system.
 
 ### Downloading Media Messages
